@@ -10,7 +10,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch1", "ch1", "{440EF260-DD0
 		exercise1_1.cpp = exercise1_1.cpp
 		exercise1_2.cpp = exercise1_2.cpp
 		exercise1_3.cpp = exercise1_3.cpp
-		exercise1_6.cpp = exercise1_6.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{5F5331C6-3BA5-4453-ACBA-A5D1CFE97E53}"
+	ProjectSection(SolutionItems) = preProject
+		data\books.txt = data\books.txt
+		data\exercise1_17.png = data\exercise1_17.png
+		data\exercise1_2.png = data\exercise1_2.png
+		data\exercise1_24.png = data\exercise1_24.png
+		data\exercise1_7.png = data\exercise1_7.png
+		data\exercise2_42.h = data\exercise2_42.h
+		data\for_transform.txt = data\for_transform.txt
+		data\letter.txt = data\letter.txt
+		data\phonenumbers.txt = data\phonenumbers.txt
+		data\Sales_item.h = data\Sales_item.h
+		data\storyDataFile.txt = data\storyDataFile.txt
+		data\transform_rules.txt = data\transform_rules.txt
+		data\Version_test.h = data\Version_test.h
 	EndProjectSection
 EndProject
 Global
