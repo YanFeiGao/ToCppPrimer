@@ -1,15 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPrimer_Practice", "CppPrimer_Practice\CppPrimer_Practice.vcxproj", "{DA8B71FD-413C-419D-A80F-5921A4E9158B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch1", "ch1", "{440EF260-DD02-448F-A0BF-EA25441ED9B2}"
 	ProjectSection(SolutionItems) = preProject
 		exercise1_1.cpp = exercise1_1.cpp
+		exercise1_10.cpp = exercise1_10.cpp
+		exercise1_11.cpp = exercise1_11.cpp
+		exercise1_16.cpp = exercise1_16.cpp
 		exercise1_2.cpp = exercise1_2.cpp
+		exercise1_20.cpp = exercise1_20.cpp
 		exercise1_3.cpp = exercise1_3.cpp
+		exercise1_9.cpp = exercise1_9.cpp
+		..\..\Cpp_Primer_Answers\ch01\README.md = ..\..\Cpp_Primer_Answers\ch01\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{5F5331C6-3BA5-4453-ACBA-A5D1CFE97E53}"
