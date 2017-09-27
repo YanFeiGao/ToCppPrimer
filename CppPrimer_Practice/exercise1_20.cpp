@@ -9,7 +9,7 @@ using std::endl;
 
 int main()
 {//input example: 0-1101-87999-X 3 10   code   number  price 
- //output      0-1101-87999-X 3 30  10   code   cost avg_price
+ //output         0-1101-87999-X 3 30  10   code   cost avg_price
 	for (Sales_item item; cin >> item; cout << item << endl);
 	return 0;
 }

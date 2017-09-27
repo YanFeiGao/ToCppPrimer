@@ -1,4 +1,4 @@
-// CppPrimerPractice.cpp: å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
+// CppPrimerPractice.cpp: ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
 //
 #include "stdafx.h"
 #include "Sales_item.h"
@@ -7,7 +7,7 @@
 std::istream& test(std::istream& value)
 {
 	int v = 0;
-	while (std::cin>>v,!value.eof())
+	while (std::cin >> v, !value.eof())
 	{
 		if (value.bad())
 		{
@@ -17,24 +17,17 @@ std::istream& test(std::istream& value)
 		{
 			std::cout << " date error, please try again!" << std::endl;
 			value.clear();
-			value.ignore(100,'\n');
+			value.ignore(100, '\n');
 			continue;
 		}
-		std::cout<<v<<std::endl;
+		std::cout << v << std::endl;
 	}
 	value.clear();
 	return value;
 }
 int main()
 {
-	//test(std::cin);
-	int i = 0;
-	std::cout << std::unitbuf;
-	while (std::cin >> i)
-	{
-		std::cout << i;
-	}
-	
+	test(std::cin);
 	return 0;
 }
 
