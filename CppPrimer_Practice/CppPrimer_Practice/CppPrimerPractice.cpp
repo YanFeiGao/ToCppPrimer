@@ -2,39 +2,20 @@
 //
 #include "stdafx.h"
 #include "Sales_item.h"
-#include <iostream>
-#include <stdexcept>
-std::istream& test(std::istream& value)
-{
-	int v = 0;
-	while (std::cin>>v,!value.eof())
-	{
-		if (value.bad())
-		{
-			throw std::runtime_error("IO stream error");
-		}
-		if (value.fail())
-		{
-			std::cout << " date error, please try again!" << std::endl;
-			value.clear();
-			value.ignore(100,'\n');
-			continue;
-		}
-		std::cout<<v<<std::endl;
-	}
-	value.clear();
-	return value;
-}
+#include <string.h>
+//using namespace std;
 int main()
 {
 	//test(std::cin);
-	int i = 0;
+	/*int i = 0;
 	std::cout << std::unitbuf;
 	while (std::cin >> i)
 	{
 		std::cout << i;
-	}
-	
+	}*/
+	std::string temp = "D:\\MapGIS 10\\Cache\\One\\234";
+	long pos = temp.rfind("\\", temp.length());
+	std::string endstr = temp.substr(pos+1);
 	return 0;
 }
 
