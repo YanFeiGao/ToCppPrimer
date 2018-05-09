@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppPrimer_Practice", "CppPrimer_Practice\CppPrimer_Practice.vcxproj", "{DA8B71FD-413C-419D-A80F-5921A4E9158B}"
 EndProject
@@ -49,7 +49,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{CB66B69A-48CB-43CA-A122-4A69BB100B88}"
 	ProjectSection(SolutionItems) = preProject
 		FindStringTailstr.cpp = FindStringTailstr.cpp
+		memcpy.cpp = memcpy.cpp
+		Multithreading.cpp = Multithreading.cpp
 		OutPutToText.cpp = OutPutToText.cpp
+		WritValueTotxt.cpp = WritValueTotxt.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CallBack", "CallBack", "{E930AEEF-4E38-4B18-B76C-8B46E4183689}"
+	ProjectSection(SolutionItems) = preProject
+		CallBack.cpp = CallBack.cpp
+		CppPrimer_Practice\TestCallBack_1.h = CppPrimer_Practice\TestCallBack_1.h
 	EndProjectSection
 EndProject
 Global
@@ -71,6 +80,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E930AEEF-4E38-4B18-B76C-8B46E4183689} = {CB66B69A-48CB-43CA-A122-4A69BB100B88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB958800-459D-4F7D-A488-CDD151EB8F8D}
