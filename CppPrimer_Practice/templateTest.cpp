@@ -1,12 +1,12 @@
-// CppPrimerPractice.cpp: å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
+// CppPrimerPractice.cpp: ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
 //
 #include "stdafx.h"
 #include <stdio.h>
 using namespace std;
-template<class T1,class T2>
-class A{
+template<class T1, class T2>
+class A {
 public:
-	int fun1(T1 x,int y);
+	int fun1(T1 x, int y);
 	T2 fun2(T1 x, T2 y);
 protected:
 private:

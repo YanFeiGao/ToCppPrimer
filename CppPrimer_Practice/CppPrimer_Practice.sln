@@ -52,6 +52,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{CB66B69A-4
 		memcpy.cpp = memcpy.cpp
 		Multithreading.cpp = Multithreading.cpp
 		OutPutToText.cpp = OutPutToText.cpp
+		templateTest.cpp = templateTest.cpp
 		WritValueTotxt.cpp = WritValueTotxt.cpp
 	EndProjectSection
 EndProject
